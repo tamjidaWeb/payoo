@@ -3,10 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Payoo MFS</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    
+    <main class="flex justify-center ">
+        <div class="mockup-phone">
+            <div class="mockup-phone-camera"></div>
+            <div class="mockup-phone-display text-white grid place-content-center">
+                <!-- login section -->
+                <div class="hero bg-base-200 min-h-screen">
+                    <div class="hero-content flex-col lg:flex-row-reverse">
+                    
+                      <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                        <form class="card-body">
+                          <div class="form-control">
+                            <label class="label">
+                              <span class="label-text text-black">Phone Number</span>
+                            </label>
+                            <input  type="text" placeholder="Enter your phone number" class="input input-bordered text-black" required />
+                          </div>
+                          <div class="form-control">
+                            <label class="label">
+                              <span class="label-text text-black">Pin</span>
+                            </label>
+                            <input type="pin" placeholder="Enter your pin" class="input input-bordered text-black" required />
+                            <label class="label">
+                              <a href="#" class="label-text-alt link link-hover text-black">Forgot password?</a>
+                            </label>
+                          </div>
+                          <div class="form-control mt-6">
+                            <button class="btn btn-primary">Login</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+    </main>
 
     <script src="payoo.js"></script>
 </body>
